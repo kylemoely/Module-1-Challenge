@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* nav bar properties. nav bar is given class "header" */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,6 +42,7 @@ body {
     margin-left: 25px;
 }
 
+/* nav bar links */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* front page main picture styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,12 +72,32 @@ p {
     margin-left: 25px;
 }
 
+/* main element */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main section img {
+    max-height: 200px;
+}
+
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* sidebar styling (given class "benefits") */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,41 +127,7 @@ p {
 }
 
 
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-main section img {
-    max-height: 200px;
-}
-
-/* .online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .footer {
     padding: 30px;
